@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects Condition="'$(MSBuildVersion)' == '' Or '$(MSBuildVersion)' &lt; '16.0'">$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>34c8d276-fa02-4a45-ba97-78bf6b9fc882</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>Tensorflow.Lite.Net</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)MarshalUtil.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Pointer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SafeUnmanagedMemoryHandle.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)SymbolResolver.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)tensorflowlite_c.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UTF32Marshaller.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UTF8Marshaller.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)VTables.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="$(MSBuildThisFileDirectory)premake5.lua" />
+  </ItemGroup>
+</Project>
