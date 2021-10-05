@@ -22,16 +22,7 @@ namespace Tensorflow.Lite.Net.Forms.UWP
         public MainPage()
         {
             this.InitializeComponent();
-
-            //LoadApplication(new Tensorflow.Lite.Net.Forms.App());
-
-        }
-
-        private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
-        {
-
-            Debug.WriteLine("GOGOGO");
-            Debug.WriteLine(c_api.TfLiteVersion());
+            LoadApplication(new Tensorflow.Lite.Net.Forms.App());
         }
     }
 }
