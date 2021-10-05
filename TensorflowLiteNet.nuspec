@@ -15,8 +15,9 @@
 		<file src="Tensorflow.Lite.Net.Android/bin/Release/Tensorflow.Lite.Net.pdb" target="lib/MonoAndroid81/Tensorflow.Lite.Net.pdb" />
 
 		<!-- UWP -->
-		<file src="Tensorflow.Lite.Net.UWP/bin/Release/Tensorflow.Lite.Net.dll" target="lib/uap10.0/Tensorflow.Lite.Net.dll/Tensorflow.Lite.Net.pdb" />
-		<file src="Tensorflow.Lite.Net.UWP/bin/Release/Tensorflow.Lite.Net.pdb" target="lib/uap10.0" />
+		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.dll" target="lib/uap10.0/Tensorflow.Lite.Net.dll" />
+		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.pdb" target="lib/uap10.0/Tensorflow.Lite.Net.pdb" />
+		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/lib/x64/tensorflowlite_c.dll" target="lib/uap10.0/tensorflowlite_c.dll" />
 		<!-- netstandard2.0 -->
 		<file src="Tensorflow.Lite.Net.Standard/bin/Release/netstandard2.0/Tensorflow.Lite.Net.dll" target="lib/netstandard2.0/Tensorflow.Lite.Net.dll" />
 		<file src="Tensorflow.Lite.Net.Standard/bin/Release/netstandard2.0/Tensorflow.Lite.Net.pdb" target="lib/netstandard2.0/Tensorflow.Lite.Net.pdb" />

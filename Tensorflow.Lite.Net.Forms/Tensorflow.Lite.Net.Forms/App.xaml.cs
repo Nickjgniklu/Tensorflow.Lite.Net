@@ -1,6 +1,5 @@
 ﻿using System;
 using System.Diagnostics;
-using tensorflowlite_c;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 

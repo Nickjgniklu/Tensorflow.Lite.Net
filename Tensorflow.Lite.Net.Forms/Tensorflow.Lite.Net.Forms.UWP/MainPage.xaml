@@ -7,6 +7,6 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-
+<Button Content="load" Click="ButtonBase_OnClick"></Button>
     </Grid>
 </forms:WindowsPage>

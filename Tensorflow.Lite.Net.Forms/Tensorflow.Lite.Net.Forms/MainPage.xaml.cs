@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using MathFuncs;
 using Xamarin.Forms;
 using Tensorflow.Lite.Net;
-using tensorflowlite_c;
+//using tensorflowlite_c;
 
 namespace Tensorflow.Lite.Net.Forms
 {
@@ -142,7 +142,7 @@ namespace Tensorflow.Lite.Net.Forms
 private void Button_OnClicked(object sender, EventArgs e)
 {
             // Debug.WriteLine($"TfLiteVersion: {c_api.TfLiteVersion()}");
-               versionLavel.Text=c_api.TfLiteVersion();
+            //   versionLavel.Text=c_api.TfLiteVersion();
           //  var myMathFuncs = new MyMathFuncs();
             //myMathFuncs.Add(2, 5).ToString();
 
