@@ -131,14 +131,9 @@
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="lib\x64\tensorflowlite_c.dll.if.lib">
+    <AdditionalFiles Include="lib\x64\tensorflowlite_c.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="lib\x64\tensorflowlite_c.dll">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    </AdditionalFiles>
   </ItemGroup>
   <Import Project="..\Tensorflow.Lite.Net.Shared\Tensorflow.Lite.Net.Shared.projitems" Label="Shared" />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">

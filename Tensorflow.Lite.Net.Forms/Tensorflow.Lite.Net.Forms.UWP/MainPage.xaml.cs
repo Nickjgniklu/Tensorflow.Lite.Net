@@ -29,10 +29,8 @@ namespace Tensorflow.Lite.Net.Forms.UWP
 
         private void ButtonBase_OnClick(object sender, RoutedEventArgs e)
         {
-            foreach (var file in Directory.GetFiles("./lib/x64").Concat(Directory.GetDirectories("./lib/x64")))
-            {
-                Debug.WriteLine(file);
-            }
+
+            Debug.WriteLine("GOGOGO");
             Debug.WriteLine(c_api.TfLiteVersion());
         }
     }

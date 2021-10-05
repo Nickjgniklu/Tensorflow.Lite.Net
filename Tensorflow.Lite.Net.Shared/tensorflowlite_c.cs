@@ -18,9 +18,9 @@ namespace tensorflowlite_c
 #if Android
         public const string TFLiteLib = "libtensorflowlite_c.so";
 #elif UWP
-        public const string TFLiteLib = "lib/x64/tensorflowlite_c.dll";
+        public const string TFLiteLib = "tensorflowlite_c.dll";
 #else
-        public const string TFLiteLib = "lib/x64/tensorflowlite_c.dll";
+        public const string TFLiteLib = "tensorflowlite_c.dll";
 #endif
 
     }
