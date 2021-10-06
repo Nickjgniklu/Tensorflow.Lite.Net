@@ -24,6 +24,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tensorflow.Lite.Net.Forms.i
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tensorflow.Lite.Net.Forms", "Tensorflow.Lite.Net.Forms\Tensorflow.Lite.Net.Forms\Tensorflow.Lite.Net.Forms.csproj", "{E360925A-BCA3-4AC6-A404-1CDD25D1A259}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tensorflow.Lite.Net.Forms.WPF", "Tensorflow.Lite.Net.Forms\Tensorflow.Lite.Net.Forms.WPF\Tensorflow.Lite.Net.Forms.WPF.csproj", "{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		Tensorflow.Lite.Net.Shared\Tensorflow.Lite.Net.Shared.projitems*{0b9f9f3f-d05d-4420-a87b-adaa73d48e30}*SharedItemsImports = 4
@@ -246,6 +248,34 @@ Global
 		{E360925A-BCA3-4AC6-A404-1CDD25D1A259}.Release|x64.Build.0 = Release|Any CPU
 		{E360925A-BCA3-4AC6-A404-1CDD25D1A259}.Release|x86.ActiveCfg = Release|Any CPU
 		{E360925A-BCA3-4AC6-A404-1CDD25D1A259}.Release|x86.Build.0 = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|ARM.Build.0 = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|x64.Build.0 = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Debug|x86.Build.0 = Debug|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|ARM.Build.0 = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|ARM64.Build.0 = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|iPhone.Build.0 = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|x64.ActiveCfg = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|x64.Build.0 = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|x86.ActiveCfg = Release|Any CPU
+		{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

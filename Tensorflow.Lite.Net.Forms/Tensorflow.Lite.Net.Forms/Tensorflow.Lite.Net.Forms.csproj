@@ -11,10 +11,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="MLModels\mnist.tflite" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="MLModels\mnist.tflite" />
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="MathFuncs" Version="1.0.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.19" />
+    <PackageReference Include="SkiaSharp.Views.Forms" Version="2.80.3" />
     <PackageReference Include="Tensorflow.Lite.Net" Version="1.0.15" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2125" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
   </ItemGroup>
 </Project>
