@@ -27,6 +27,16 @@ steps:
 - task: MSBuild@1
   inputs:
     solution: 'Tensorflow.Lite.Net/Tensorflow.Lite.Net.iOS.csproj'
+    configuration: 'Release'
+- task: CmdLine@2
+  inputs:
+    script: 'ls ./'
+- task: CmdLine@2
+  inputs:
+    script: 'ls ./Tensorflow.Lite.Net.iOS'
+- task: CmdLine@2
+  inputs:
+    script: 'ls ./Tensorflow.Lite.Net.iOS/bin'
 - task: ArchiveFiles@2
   inputs:
     rootFolderOrFile: '$(Build.BinariesDirectory)'
@@ -34,3 +44,6 @@ steps:
     archiveType: 'zip'
     archiveFile: '$(Build.ArtifactStagingDirectory)/$(Build.BuildId).zip'
     replaceExistingArchive: true
+
+- publish: Tensorflow.Lite.Net.iOS/bin/Release/
+  artifact: iosDlls
