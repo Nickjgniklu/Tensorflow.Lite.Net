@@ -22,7 +22,7 @@ steps:
 
 - task: NuGetCommand@2
   inputs:
-    restoreSolution: '**/*.sln'
+    restoreSolution: 'Tensorflow.Lite.Net/Tensorflow.Lite.Net.iOS.csproj'
 
 - task: MSBuild@1
   inputs:
