@@ -23,8 +23,10 @@ namespace Tensorflow.Lite.Net.Forms.WPF
     {
         public MainWindow()
         {
-            Forms.Init();
-            LoadApplication(new Tensorflow.Lite.App());
+            InitializeComponent();
+
+            Xamarin.Forms.Forms.Init();
+            LoadApplication(new Tensorflow.Lite.Net.Forms.App());
         }
     }
 }
