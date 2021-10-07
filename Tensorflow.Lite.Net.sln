@@ -7,7 +7,7 @@ Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "Tensorflow.Lite.Net.Shared"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tensorflow.Lite.Net.Standard", "Tensorflow.Lite.Net.Standard\Tensorflow.Lite.Net.Standard.csproj", "{61C135D6-26AE-45B8-8302-FC2B8306D658}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tensorflow.Lite.Net.UWP", "Tensorflow.Lite.Net.UWP\Tensorflow.Lite.Net.UWP.csproj", "{86F859DC-4097-4E32-A48B-06A579E181F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tensorflow.Lite.Net.Windows", "Tensorflow.Lite.Net.UWP\Tensorflow.Lite.Net.Windows.csproj", "{86F859DC-4097-4E32-A48B-06A579E181F2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{BB9EAA57-9FB4-4BC6-9086-A7415529CCC9}"
 	ProjectSection(SolutionItems) = preProject
@@ -24,7 +24,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tensorflow.Lite.Net.Forms.i
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tensorflow.Lite.Net.Forms", "Tensorflow.Lite.Net.Forms\Tensorflow.Lite.Net.Forms\Tensorflow.Lite.Net.Forms.csproj", "{E360925A-BCA3-4AC6-A404-1CDD25D1A259}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tensorflow.Lite.Net.Forms.WPF", "Tensorflow.Lite.Net.Forms\Tensorflow.Lite.Net.Forms.WPF\Tensorflow.Lite.Net.Forms.WPF.csproj", "{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tensorflow.Lite.Net.Forms.WPF", "Tensorflow.Lite.Net.Forms\Tensorflow.Lite.Net.Forms.WPF\Tensorflow.Lite.Net.Forms.WPF.csproj", "{D14CBD0C-9D1E-4238-AF0B-6E201AC706E2}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
