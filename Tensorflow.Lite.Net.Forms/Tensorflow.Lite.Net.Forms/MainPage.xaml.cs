@@ -8,7 +8,6 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-using MathFuncs;
 using Microsoft.EntityFrameworkCore.Internal;
 using SkiaSharp;
 using Xamarin.Forms;

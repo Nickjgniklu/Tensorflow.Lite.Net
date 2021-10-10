@@ -20,9 +20,9 @@ namespace tensorflowlite_c
 #elif UWP
         public const string TFLiteLib = "tensorflowlite_c.dll";
 #elif iOS
-        public const string TFLiteLib = "tensorflowlite_c.dll";
-#else
         public const string TFLiteLib = "__Internal";
+#else
+        public const string TFLiteLib = "tensorflowlite_c.dll";
 #endif
 
     }

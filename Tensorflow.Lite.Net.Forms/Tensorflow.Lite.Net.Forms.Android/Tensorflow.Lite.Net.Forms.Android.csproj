@@ -16,7 +16,6 @@
     <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
     <MonoAndroidResourcePrefix>Resources</MonoAndroidResourcePrefix>
     <MonoAndroidAssetsPrefix>Assets</MonoAndroidAssetsPrefix>
-    <AndroidUseLatestPlatformSdk>false</AndroidUseLatestPlatformSdk>
     <TargetFrameworkVersion>v11.0</TargetFrameworkVersion>
     <AndroidEnableSGenConcurrent>true</AndroidEnableSGenConcurrent>
     <AndroidUseAapt2>true</AndroidUseAapt2>
@@ -100,7 +99,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Tensorflow.Lite.Net.Forms\Tensorflow.Lite.Net.Forms.csproj">
-      <Project>{2BB87B2E-3DC4-40AC-AD5A-4BFA92379081}</Project>
+      <Project>{E360925A-BCA3-4AC6-A404-1CDD25D1A259}</Project>
       <Name>Tensorflow.Lite.Net.Forms</Name>
     </ProjectReference>
   </ItemGroup>
