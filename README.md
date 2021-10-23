@@ -15,24 +15,24 @@ All platforms except UWP appear to be implementable and will be added in the fut
 * TensorflowLite.Net.Forms is a simple mnist example
 ## Usage
 ### Load tflite model as bytes
-```
+```csharp
 var modelBytes = File.ReadAllBytes("MLModels.mnist.tflite")
 ```
 ### Create Model
-```
+```csharp
 GCHandle modelHandle = GCHandle.Alloc(modelBytes, GCHandleType.Pinned);
 IntPtr modelpointer = modelHandle.AddrOfPinnedObject();
 TfLiteModel model = c_api.TfLiteModelCreate(modelpointer, (ulong)modelBytes.Length);
 ```
 ### Create Interpreter with options
-```
+```csharp
  TfLiteInterpreterOptions options = c_api.TfLiteInterpreterOptionsCreate();
  c_api.TfLiteInterpreterOptionsSetNumThreads(options, 2);
  TfLiteInterpreter interpreter = c_api.TfLiteInterpreterCreate(model, options);
  c_api.TfLiteInterpreterAllocateTensors(interpreter);
 ```
 ### Run inference
-```
+```csharp
 sbyte[] currentImage=new sbyte[28*28];
 GCHandle imageHandle = GCHandle.Alloc(currentImage, GCHandleType.Pinned);
 TfLiteTensor inputTensor = c_api.TfLiteInterpreterGetInputTensor(interpreter, 0);
@@ -50,7 +50,7 @@ pinnedArray.Free();
 ```
 ### Clean up
 If you fail to call these functions after use you may cause memory leaks
-```
+```csharp
 c_api.TfLiteInterpreterDelete(interpreter);
 c_api.TfLiteModelDelete(model);
 c_api.TfLiteInterpreterOptionsDelete(options);
