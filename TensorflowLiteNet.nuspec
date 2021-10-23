@@ -16,18 +16,18 @@
 
 		<!-- UWP -->
 		<!-- UWP not working because marsheling is not allowed need to use winrt
-		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.dll" target="lib/uap10.0/Tensorflow.Lite.Net.dll" />
-		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.pdb" target="lib/uap10.0/Tensorflow.Lite.Net.pdb" />
-		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/lib/x64/tensorflowlite_c.dll" target="lib/uap10.0/tensorflowlite_c.dll" />
+		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.dll" target="runtimes/win-x64/lib/uap10.0/Tensorflow.Lite.Net.dll" />
+		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.pdb" target="runtimes/win-x64/lib/uap10.0/Tensorflow.Lite.Net.pdb" />
+		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/lib/x64/tensorflowlite_c.dll" target="runtimes/win-x64/lib/uap10.0/tensorflowlite_c.dll" />
 		-->
-		<!-- windows net core-->
-		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.dll" target="lib/netcoreapp/Tensorflow.Lite.Net.dll" />
-		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.pdb" target="lib/netcoreapp/Tensorflow.Lite.Net.pdb" />
-		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/lib/x64/tensorflowlite_c.dll" target="lib/netcoreapp/tensorflowlite_c.dll" />
-		<!-- windows net framework-->
-		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.dll" target="lib/net/Tensorflow.Lite.Net.dll" />
-		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.pdb" target="lib/net/Tensorflow.Lite.Net.pdb" />
-		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/lib/x64/tensorflowlite_c.dll" target="lib/net/tensorflowlite_c.dll" />
+		<!-- windows x64-->
+		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.dll" target="runtimes/win-x64/native/Tensorflow.Lite.Net.dll" />
+		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.pdb" target="runtimes/win-x64/native/Tensorflow.Lite.Net.pdb" />
+		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/lib/x64/tensorflowlite_c.dll" target="runtimes/win-x64/native/tensorflowlite_c.dll" />
+		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/lib/x64/tensorflowlite_c.dll" target="runtimes/win-x64/lib/netcoreapp/tensorflowlite_c.dll" />
+		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.dll" target="runtimes/win-x64/lib/netcoreapp/Tensorflow.Lite.Net.dll" />
+		<file src="Tensorflow.Lite.Net.UWP/bin/x64/Release/Tensorflow.Lite.Net.pdb" target="runtimes/win-x64/lib/netcoreapp/Tensorflow.Lite.Net.pdb" />
+		
 		<!-- netstandard2.0 -->
 		<file src="Tensorflow.Lite.Net.Standard/bin/Release/netstandard2.0/Tensorflow.Lite.Net.dll" target="lib/netstandard2.0/Tensorflow.Lite.Net.dll" />
 		<file src="Tensorflow.Lite.Net.Standard/bin/Release/netstandard2.0/Tensorflow.Lite.Net.pdb" target="lib/netstandard2.0/Tensorflow.Lite.Net.pdb" />
