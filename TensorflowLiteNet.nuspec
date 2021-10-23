@@ -4,11 +4,17 @@
 		<id>Tensorflow.Lite.Net</id>
 		<version>$version$</version>
 		<authors>Nick Jugganaikloo</authors>
-		<description>Sampl Wrapper for the Tensorflow c_api</description>
-		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>Wrapper for the Tensorflow c_api</description>
+		<requireLicenseAcceptance>true</requireLicenseAcceptance>
 		<copyright>Copyright 2021</copyright>
+		<repository type="git" url="https://github.com/Nickjgniklu/Tensorflow.Lite.Net.git" />
+		<license type="file">LICENSE</license>
+
+
+
 	</metadata>
 	<files>
+		<file src="LICENSE" target="LICENSE" />
 
 		<!-- Android -->
 		<file src="Tensorflow.Lite.Net.Android/bin/Release/Tensorflow.Lite.Net.dll" target="lib/MonoAndroid81/Tensorflow.Lite.Net.dll" />
@@ -32,7 +38,7 @@
 		<file src="Tensorflow.Lite.Net.Standard/bin/Release/netstandard2.0/Tensorflow.Lite.Net.dll" target="lib/netstandard2.0/Tensorflow.Lite.Net.dll" />
 		<file src="Tensorflow.Lite.Net.Standard/bin/Release/netstandard2.0/Tensorflow.Lite.Net.pdb" target="lib/netstandard2.0/Tensorflow.Lite.Net.pdb" />
 		<!-- iOS -->
-		<file src="Tensorflow.Lite.Net.iOS/bin/Release/Tensorflow.Lite.Net.dll" target="lib/Xamarin.iOS10/Tensorflow.Lite.Net.dll" />
-		<file src="Tensorflow.Lite.Net.iOS/bin/Release/Tensorflow.Lite.Net.pdb" target="lib/Xamarin.iOS10/Tensorflow.Lite.Net.pdb" />
+		<!--<file src="Tensorflow.Lite.Net.iOS/bin/Release/Tensorflow.Lite.Net.dll" target="lib/Xamarin.iOS10/Tensorflow.Lite.Net.dll" />-->
+		<!--<file src="Tensorflow.Lite.Net.iOS/bin/Release/Tensorflow.Lite.Net.pdb" target="lib/Xamarin.iOS10/Tensorflow.Lite.Net.pdb" />-->
 	</files>
 </package>

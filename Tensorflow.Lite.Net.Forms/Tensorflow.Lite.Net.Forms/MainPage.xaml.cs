@@ -111,20 +111,18 @@ namespace Tensorflow.Lite.Net.Forms
 
 
 
-            GCHandle inputhandle = GCHandle.Alloc(currentImage, GCHandleType.Pinned);
-            var input = c_api.TfLiteInterpreterGetInputTensor(interpreter, 0);
-            IntPtr inputpointer = inputhandle.AddrOfPinnedObject();
-            c_api.TfLiteTensorCopyFromBuffer(input, inputpointer, 28 * 28);
-            var status = c_api.TfLiteInterpreterInvoke(interpreter);
-
-            var output = c_api.TfLiteInterpreterGetOutputTensor(interpreter, 0);
-
+            GCHandle imageHandle = GCHandle.Alloc(currentImage, GCHandleType.Pinned);
+            TfLiteTensor inputTensor = c_api.TfLiteInterpreterGetInputTensor(interpreter, 0);
+            IntPtr inputPointer = imageHandle.AddrOfPinnedObject();
+            c_api.TfLiteTensorCopyFromBuffer(inputTensor, inputPointer, 28 * 28);
+            TfLiteStatus status = c_api.TfLiteInterpreterInvoke(interpreter);
+            TfLiteTensor outputTensor = c_api.TfLiteInterpreterGetOutputTensor(interpreter, 0);
             sbyte[] dataout = new sbyte[10];
             GCHandle pinnedArray = GCHandle.Alloc(dataout, GCHandleType.Pinned);
-            IntPtr pointer = pinnedArray.AddrOfPinnedObject();
-            c_api.TfLiteTensorCopyToBuffer(output, pointer, 10);
+            IntPtr outputPointer = pinnedArray.AddrOfPinnedObject();
+            c_api.TfLiteTensorCopyToBuffer(outputTensor, outputPointer, 10);
             Result.Text = $"Predicted {dataout.IndexOf(dataout.Max())}";
-            inputhandle.Free();
+            imageHandle.Free();
             pinnedArray.Free();
 
         }
